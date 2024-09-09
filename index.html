@@ -9,7 +9,7 @@
 <body>
     <div class="login-container">
         <h2>Iniciar Sesión</h2>
-        <form action="#" method="post">
+        <form id="login-form" action="#" method="post">
             <div class="input-group">
                 <label for="username">Usuario</label>
                 <input type="text" id="username" name="username" required>
@@ -22,5 +22,27 @@
         </form>
         <p>¿No tienes cuenta? <a href="#">Regístrate aquí</a></p>
     </div>
+
+    <script>
+        document.getElementById('login-form').addEventListener('submit', function(e) {
+            e.preventDefault(); // Evitar recargar la página
+
+            const usernameInput = document.getElementById('username');
+            const passwordInput = document.getElementById('password');
+
+            const username = usernameInput.value;
+            const password = passwordInput.value;
+
+            // Aquí puedes enviar los datos al servidor
+            console.log('Username:', username);
+            console.log('Password:', password);
+        });
+        const registerLink = document.getElementById('register-link');
+        registerLink.addEventListener('click', function(e) {
+         e.preventDefault(); 
+    
+    console.log('Registro de nuevo usuario');
+});
+    </script>
 </body>
 </html>

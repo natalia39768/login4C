@@ -1,0 +1,40 @@
+/* Estilos para el modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('zf4z6utfezua1.png'); 
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5%;
+    width: 500px;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+  }
+  
+  .modal-buttons button {
+    margin-left: 5%;
+  }
+  
+  /* Segunda pantalla oculta inicialmente */
+  .second-screen {
+    display: none;
+    text-align: center;
+    padding: 20px;
+ 
+  }
+  
+  

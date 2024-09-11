@@ -6,7 +6,10 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(135deg, #dbaf5c, #f06d76);
+    background:  linear-gradient(135deg, #dbaf5c, #f06d76);
+    background-image: url('zf4z6utfezua1.png'); 
+    
+    
 }
 
 /* Contenedor del login */
